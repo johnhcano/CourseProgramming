@@ -19,8 +19,6 @@ public class Ejercicio56 {
                 noAprobados++;
             }
         }
-
         System.out.println("Aprobados: " + aprobados + " No Aprobados: " + noAprobados);
-
     }
 }
