@@ -10,11 +10,15 @@ public class Convertidor {
         //Pedir datos por teclado
         Scanner leer = new Scanner(System.in);
         System.out.println("Digite los grados Celcius");
-        c = leer.nextInt();
+        c = leer.nextDouble();
         System.out.println("Digite lo grados Farenheit");
-        f = leer.nextInt();
-
-
+        f = leer.nextDouble();
+        //calculamos las fórmulas para cada una de las conversiones
+        gradosCelcius = (f - 32) * (5/9);
+        gradosFarenheit = c * (9/5) + 32;
+        //Mostrar los resultados de las fórmulas
+        System.out.println("°F -> °C : " + gradosCelcius);
+        System.out.println("°C -> °F : " + gradosFarenheit);
         leer.close();
     }
 }
