@@ -17,8 +17,8 @@ public class Convertidor {
         gradosCelcius = (f - 32.0) * (5.0/9.0);
         gradosFarenheit = c * (9.0/5.0) + 32.0;
         //Mostrar los resultados de las fórmulas
-        System.out.println("°F -> °C : " + gradosCelcius);
-        System.out.println("°C -> °F : " + gradosFarenheit);
+        System.out.println("°F -> °C = " + gradosCelcius);
+        System.out.println("°C -> °F = " + gradosFarenheit);
         leer.close();
     }
 }
