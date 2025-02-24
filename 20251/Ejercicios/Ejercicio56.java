@@ -20,5 +20,7 @@ public class Ejercicio56 {
             }
         }
         System.out.println("Aprobados: " + aprobados + " No Aprobados: " + noAprobados);
+
+        leer.close();
     }
 }
