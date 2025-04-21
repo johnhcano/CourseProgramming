@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Circulo {
+    public Circulo(double r) {
+        //TODO Auto-generated constructor stub
+    }
+
     public static void main(String[] args) {
 
         /*
@@ -24,5 +28,15 @@ public class Circulo {
         System.out.println("Área del círculo: " + area);
 
         leer.close();
+    }
+
+    public String calcularPerimetro() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularPerimetro'");
+    }
+
+    public String calcularArea() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'calcularArea'");
     }
 }

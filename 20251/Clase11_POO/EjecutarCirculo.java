@@ -1,7 +1,7 @@
 public class EjecutarCirculo{
     public static void main(String[] args){
 
-        float r = 2.3; //radio
+        double r = 2.3; //radio
         
         //Creación del objeto
         Circulo objCirculo1 = new Circulo(r);

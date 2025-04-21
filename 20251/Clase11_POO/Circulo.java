@@ -1,11 +1,12 @@
 public class Circulo {
     
     //Atributos
-    private float radio;
+    private double radio;
 
     //Constructor de la clase: nos permite inicializar la clase
     //El método constructor se llama igual que la clase
-    public Circulo(float radio){
+    
+    public Circulo(double radio){
         this.radio = radio; //this es una autoreferencia al atributo de la clase
     }
 
