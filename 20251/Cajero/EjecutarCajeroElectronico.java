@@ -20,9 +20,9 @@ public class EjecutarCajeroElectronico {
         //Transferir 200 a Medelin
         objP1.transferir(200.0, "Medelin");
 
+        //Escenario 2
         System.out.println("---------------Escenario 2----------------------------");
         
-        //Escenario 2
         //Se crea el objeto objP2 con saldo inicial de 500.0
         CajeroElectronico objP2 = new CajeroElectronico(500.0);
 
