@@ -16,6 +16,7 @@ public class CajeroElectronico {
     public double getSaldo(){
         return saldo;
     }
+
     /**
      * Método para depositar dinero y asignarselo al saldo
      * @param cantidad
@@ -31,6 +32,7 @@ public class CajeroElectronico {
      */
     public void retirar(double cantidad){
         if(cantidad <= saldo){
+            saldo -= cantidad;
             System.out.println("El nuevo saldo es: " + saldo);
         }else{
             System.out.println("La cantidad a retirar es mayor que el saldo");    
@@ -47,6 +49,7 @@ public class CajeroElectronico {
 
     public void transferir(double cantidad, String destino){
         if(cantidad <= saldo){
+            saldo -= cantidad;
             System.out.println("Se realizó una transferencia por: " + cantidad + 
             " a: " + destino + " y su saldo es: " + saldo);
         }else{
