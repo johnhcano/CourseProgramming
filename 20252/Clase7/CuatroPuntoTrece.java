@@ -7,12 +7,20 @@ public class CuatroPuntoTrece {
         Scanner leer = new Scanner(System.in);
 
         //Solicitar por teclado el mes
-        System.out.println("Introduzca un número de mes del 1 al 12");
+        System.out.println("Introduzca un mes (1 para Enero, 2 para Febrero,...)");
         int mes = leer.nextInt();
+        //solicitar por teclado un dia del mes
+        System.out.println("Introduzca un día del mes");
+        int dia = leer.nextInt();
 
         //Segun_sea de Pseudocódigo en JAVA es switch
         switch(mes){
             case 1: System.out.println("ENERO");
+                    if (dia >= 1 && dia <= 31){
+                        System.out.println("Día correcto");
+                    }else{
+                        System.out.println("Día incorrecto");
+                    }
                     break;
             case 2: System.out.println("FEBRERO");
                     break;
