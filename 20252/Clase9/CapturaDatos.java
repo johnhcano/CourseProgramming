@@ -23,3 +23,8 @@ public class CapturaDatos {
         leer.close();
     }
 }
+
+/* 
+ * Ejercicios para hacer pag 198 - 199:
+ * 5.7, 5.9, 5.10, 5.13, 5.14, 5.15
+*/
