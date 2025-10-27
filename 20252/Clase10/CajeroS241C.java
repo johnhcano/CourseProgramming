@@ -42,7 +42,7 @@ public class CajeroS241C {
             } else {
                 System.out.println("Su clave no es correcta. intente nuevamente.");
                 intentos++;
-            }   
+            }
 
         }while(intentos <= 3);
         
