@@ -6,6 +6,10 @@ public class Carro {
 
     //Métodos
     public void acelerar(){
-        System.out.println("El carro está acelerando...");
+        System.out.println("El " + marca + " está acelerando...");
+    }
+
+    public String toString(){
+        return "Carro { Color: " + color + " Marca: " + marca + "}";
     }
 }
