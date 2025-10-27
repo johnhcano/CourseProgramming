@@ -1,15 +1,15 @@
 public class Carro {
-    
-    //Atributos
+
+    // Atributos
     String color;
     String marca;
 
-    //Métodos
-    public void acelerar(){
+    // Métodos
+    public void acelerar() {
         System.out.println("El " + marca + " está acelerando...");
     }
 
-    public String toString(){
+    public String toString() {
         return "Carro { Color: " + color + " Marca: " + marca + "}";
     }
 }
