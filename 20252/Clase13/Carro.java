@@ -1,8 +1,8 @@
 public class Carro {
     
     //Atributos
-    private String color;
-    private String marca;
+    String color;
+    String marca;
 
     //Métodos
     public void acelerar(){
