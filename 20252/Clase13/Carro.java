@@ -1,9 +1,15 @@
 public class Carro {
 
     // Atributos
-    String color;
-    String marca;
+    private String color;
+    private String marca;
 
+    //Método Constructor
+    public Carro(String color, String marca){
+        this.color = color;
+        this.marca = marca;
+    }
+    
     // Métodos
     public void acelerar() {
         System.out.println("El " + marca + " está acelerando...");
