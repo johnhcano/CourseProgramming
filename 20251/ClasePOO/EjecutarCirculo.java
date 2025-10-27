@@ -1,10 +1,10 @@
 public class EjecutarCirculo{
     public static void main(String[] args){
  
-        double r = 2.3; //radio
+        double radio = 2.3; //radio
        
-        //Creación del objeto
-        Circulo objCirculo1 = new Circulo(r);
+        //Creación del objeto de la clase Circulo
+        Circulo objCirculo1 = new Circulo(radio);
  
         //llamado a los métodos de la clase
         System.out.println("Perímetro: " + objCirculo1.calcularPerimetro());
