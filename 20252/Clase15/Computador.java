@@ -14,23 +14,43 @@ public class Computador {
         this.precioBase = precioBase;
     }
 
+    public String getMarca() {
+        return marca;
+    }
+
+    public int getMemoria() {
+        return memoria;
+    }
+
+    public double getPantalla() {
+        return pantalla;
+    }
+
+    public String getCapacidad() {
+        return capacidad;
+    }
+
+    public double getPrecioBase() {
+        return precioBase;
+    }
+
     public String toString(){
         return "Computador [ Marca:" + marca + " Memoria " + memoria + " Pantalla: " + pantalla + " Capacidad: " + capacidad + " Precio: " + precioBase + "]"; 
     }
 
     //método para incrementar el costo del computador si se agrego mas memoria.
     public double cotizarMemoria(String memoria){
-        
+        double total = 0.0;
         if(memoria.equals("8GB")){
-            precioBase += 20;
+            total = precioBase + 20;
         }else if(memoria.equals("16GB")){
-            precioBase += 40;
+            total = precioBase + 60;
         }else if(memoria.equals("32GB")){
-            precioBase += 100;
+            total = precioBase + 100;
         }else{
-            precioBase += 0.0;
+            total = precioBase + 0.0;
         }
-        return precioBase;
+        return total;
     }
 
 
